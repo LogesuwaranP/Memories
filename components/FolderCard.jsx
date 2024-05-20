@@ -25,11 +25,11 @@ const styles = StyleSheet.create({
     borderRadius:5,
     backgroundColor: "#2f3855",
     marginRight: 10,
-    shadowColor: '#64646F',
-    shadowOffset: { width: 0, height: 7 },
-    shadowOpacity: 0.2,
-    shadowRadius: 29,
-    elevation: 5,
+    // shadowColor: '#64646F',
+    // shadowOffset: { width: 0, height: 7 },
+    // shadowOpacity: 0.2,
+    // shadowRadius: 29,
+    // elevation: 5,
 
   },
   image: {
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 16,
     color: '#F4F5FC',
-    fontWeight: 600
+    //fontWeight: 600
   }
 });
 

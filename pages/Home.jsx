@@ -40,7 +40,7 @@ const Home = () => {
        </View>
 
        <ScrollView horizontal  showsHorizontalScrollIndicator={false} style={styles.scrollContainer}>
-        {[1,2,3,4,5].map(()=> <FolderCard/>)}
+        {[1,2,3,4,5].map((item)=> <FolderCard key={item}/>)}
        </ScrollView>
 
        <View style={styles.headerContainer}>
@@ -48,7 +48,7 @@ const Home = () => {
        </View>
 
        <ScrollView style={styles.verticalScroll} showsVerticalScrollIndicator={false}>
-        {[1,2,3,4,5,6,7].map(()=> <ListCard/>)}
+        {[1,2,3,4,5,6,7].map((item)=> <ListCard key={item}/>)}
        </ScrollView>
 
     </View>
@@ -57,13 +57,11 @@ const Home = () => {
 
 const styles = StyleSheet.create({
   container: {
-    padding: "0.75rem",
+  //  padding: "0.75rem",
     flex: 1,
   },
   scrollContainer: {
     flex: 1,
-    flexDirection: 'column',
-    gap: 25,
     minHeight: 200,
   },
   verticalScroll: {
@@ -75,7 +73,7 @@ const styles = StyleSheet.create({
   summaryConatiner: {
     width: "100%",
     height: "8.5rem",
-    borderRadius: "0.50rem",
+    //borderRadius: "0.50rem",
     backgroundColor: "#2f3855"
   },
   welcome: {

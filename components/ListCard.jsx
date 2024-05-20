@@ -30,11 +30,11 @@ const styles = StyleSheet.create({
       padding: 7,
       borderRadius:5,
       backgroundColor: "#2f3855",
-      shadowColor: '#64646F',
-      shadowOffset: { width: 0, height: 7 },
-      shadowOpacity: 0.2,
-      shadowRadius: 29,
-      elevation: 5,
+      // shadowColor: '#64646F',
+      // shadowOffset: { width: 0, height: 7 },
+      // shadowOpacity: 0.2,
+      // shadowRadius: 29,
+      // elevation: 5,
       marginVertical: 5
     },
     image: {
