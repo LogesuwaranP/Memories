@@ -41,6 +41,7 @@ const Home = () => {
 
        <ScrollView horizontal  showsHorizontalScrollIndicator={false} style={styles.scrollContainer}>
         {[1,2,3,4,5].map((item)=> <FolderCard key={item}/>)}
+        <FolderCard type='empty'/>
        </ScrollView>
 
        <View style={styles.headerContainer}>
